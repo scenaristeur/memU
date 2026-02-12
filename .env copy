@@ -1,0 +1,4 @@
+OPENAI_API_KEY=sk-xxxxx
+EMBEDDING_MODEL=BAAI/bge-m3
+BASE_URL=https://albert.api.etalab.gouv.fr/v1
+MEMU_LLM_PROVIDER=albert

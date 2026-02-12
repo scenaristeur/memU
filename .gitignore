@@ -211,3 +211,6 @@ models/
 secrets.txt
 api_keys.txt
 .cursor
+
+
+examples/output/albert_example
