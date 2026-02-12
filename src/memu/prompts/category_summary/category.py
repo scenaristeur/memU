@@ -277,8 +277,14 @@ New memory items:
 </item>
 """
 
+PROMPT_BLOCK_LANGUAGE = """
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
+"""
+
 PROMPT = "\n\n".join([
     PROMPT_BLOCK_OBJECTIVE.strip(),
+    PROMPT_BLOCK_LANGUAGE.strip(),
     PROMPT_BLOCK_WORKFLOW.strip(),
     PROMPT_BLOCK_RULES.strip(),
     PROMPT_BLOCK_OUTPUT.strip(),
@@ -288,6 +294,7 @@ PROMPT = "\n\n".join([
 
 CUSTOM_PROMPT = {
     "objective": PROMPT_BLOCK_OBJECTIVE.strip(),
+    "language": PROMPT_BLOCK_LANGUAGE.strip(),
     "workflow": PROMPT_BLOCK_WORKFLOW.strip(),
     "rules": PROMPT_BLOCK_RULES.strip(),
     "output": PROMPT_BLOCK_OUTPUT.strip(),

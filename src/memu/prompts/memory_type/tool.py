@@ -1,6 +1,8 @@
 PROMPT_BLOCK_OBJECTIVE = """
 # Task Objective
 You are a professional Tool Memory Extractor. Your core task is to extract tool usage patterns, execution results, and learnings from agent logs or tool execution traces. This enables agents to learn from their tool usage history.
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
 """
 
 PROMPT_BLOCK_WORKFLOW = """

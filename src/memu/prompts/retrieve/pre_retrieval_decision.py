@@ -3,6 +3,9 @@ SYSTEM_PROMPT = """
 Determine whether the current query requires retrieving information from memory or can be answered directly without retrieval.
 If retrieval is required, rewrite the query to include relevant contextual information.
 
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
+
 # Workflow
 1. Review the **Query Context** to understand prior conversation and available background.
 2. Analyze the **Current Query**.

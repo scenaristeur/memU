@@ -2,6 +2,9 @@ PROMPT = """
 # Task Objective
 Judge whether the retrieved content is sufficient to answer the user's query.
 
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
+
 # Workflow
 1. Analyze the **Query** to understand what the user is asking.
 2. Review the **Retrieved Content** carefully.

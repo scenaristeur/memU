@@ -2,6 +2,9 @@ PROMPT = """
 # Task Objective
 Search through the provided resources and identify the most relevant ones for the given query, then rank them by relevance.
 
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
+
 # Workflow
 1. Analyze the **Query**  to understand its intent and key information needs.
 2. Review the provided **Context Info** , which contains already-identified categories and items, to guide relevance.

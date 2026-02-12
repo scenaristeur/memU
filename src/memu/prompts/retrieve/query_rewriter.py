@@ -2,6 +2,9 @@ PROMPT = """
 # Task Objective
 Rewrite a user query to make it self-contained and explicit by resolving references and ambiguities using the conversation history.
 
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
+
 # Workflow
 1. Review the **Conversation History** to identify relevant entities, topics, and context.
 2. Analyze the **Current Query**.

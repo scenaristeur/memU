@@ -57,6 +57,8 @@ The core extraction target is eventful memory items about specific events, exper
 PROMPT_BLOCK_OBJECTIVE = """
 # Task Objective
 You are a professional User Memory Extractor. Your core task is to extract specific events and experiences that happened to or involved the user (e.g., activities, occurrences, experiences at particular times).
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
 """
 
 PROMPT_BLOCK_WORKFLOW = """

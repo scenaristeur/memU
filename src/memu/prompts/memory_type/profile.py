@@ -56,6 +56,8 @@ The core extraction target is self-contained memory items about the user.
 PROMPT_BLOCK_OBJECTIVE = """
 # Task Objective
 You are a professional User Memory Extractor. Your core task is to extract independent user memory items about the user (e.g., basic info, preferences, habits, other long-term stable traits).
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
 """
 
 PROMPT_BLOCK_WORKFLOW = """

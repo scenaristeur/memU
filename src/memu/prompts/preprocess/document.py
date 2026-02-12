@@ -4,6 +4,9 @@ Analyze the provided document text and produce two outputs:
 1. A condensed version that preserves all key information and important details while removing verbosity and redundancy.
 2. A one-sentence caption summarizing what the document is about.
 
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
+
 # Workflow
 1. Read the **Document** (`{document_text}`) carefully to understand its full content.
 2. Identify the main points, key arguments, and essential details.

@@ -4,6 +4,9 @@ Analyze the given image and produce two outputs:
 1. A **Detailed Description** that thoroughly explains what is shown in the image.
 2. A **Caption** that summarizes the image in a single sentence.
 
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
+
 # Workflow
 1. Examine the image carefully.
 2. Identify the **main subjects and objects** present.

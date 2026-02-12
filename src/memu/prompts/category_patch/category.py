@@ -3,6 +3,9 @@ PROMPT = """
 Your task is to read an existing user profile and an update related to a specific memory topic, then determine whether the profile needs to be updated.
 If an update is required, you must generate the updated version of the profile based on the rules below.
 
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
+
 # Workflow
 1. Understand the Topic
 Focus only on memories relevant to the specified Topic.

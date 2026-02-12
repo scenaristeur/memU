@@ -45,6 +45,8 @@ The core extraction target is behavioral memory items that record patterns, rout
 PROMPT_BLOCK_OBJECTIVE = """
 # Task Objective
 You are a professional User Memory Extractor. Your core task is to extract behavioral patterns, routines, and solutions that characterize how the user acts or behaves to solve specific problems.
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
 """
 
 PROMPT_BLOCK_WORKFLOW = """

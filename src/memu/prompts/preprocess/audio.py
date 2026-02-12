@@ -4,6 +4,9 @@ Analyze the provided audio transcription and produce two outputs:
 1. A **Processed Content** version that is clean, well-formatted, and easy to read.
 2. A **Caption** that summarizes what the audio is about in one sentence.
 
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
+
 # Workflow
 1. Read the **Transcription** carefully.
 2. Correct punctuation, capitalization, and obvious transcription artifacts.

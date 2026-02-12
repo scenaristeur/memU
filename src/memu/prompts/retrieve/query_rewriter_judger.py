@@ -6,6 +6,9 @@ Perform two tasks:
 
 You should be conservative and only mark the result as **ENOUGH** when the retrieved content truly provides adequate information.
 
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
+
 # Workflow
 1. Review the **Query Context** to understand prior conversation and background.
 2. Analyze the **Original Query**.

@@ -352,6 +352,8 @@ CRITICAL: The content field MUST contain the complete markdown text with ALL sec
 PROMPT_BLOCK_OBJECTIVE = """
 # Task Objective
 You are a professional User Memory Extractor. Your core task is to extract skills, capabilities, and technical competencies demonstrated or described in the resource content (agent logs, workflow documentation, execution traces, or technical documents). Format each skill as a comprehensive, production-ready skill profile that can be referenced and applied.
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
 """
 
 PROMPT_BLOCK_WORKFLOW = """

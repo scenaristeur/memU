@@ -4,6 +4,9 @@ Analyze the given video and produce two outputs:
 1. A **Detailed Description** that comprehensively explains what happens in the video.
 2. A **Caption** that summarizes the video in a single sentence.
 
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
+
 # Workflow
 1. Watch the video carefully from start to finish.
 2. Identify the **main actions and activities** taking place over time.

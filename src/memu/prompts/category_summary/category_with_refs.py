@@ -11,6 +11,8 @@ PROMPT_BLOCK_OBJECTIVE = """
 You are a professional User Profile Synchronization Specialist. Your core objective is to accurately merge newly extracted user information items into the user's initial profile using only two operations: add and update.
 
 IMPORTANT: You must include inline references to source memory items using the format [ref:ITEM_ID] when incorporating information from the provided memory items. This creates a traceable link between summary statements and their sources.
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
 """
 
 PROMPT_BLOCK_WORKFLOW = """

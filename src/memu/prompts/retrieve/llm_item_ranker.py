@@ -2,6 +2,9 @@ PROMPT = """
 # Task Objective
 Search through the provided memory items and identify the most relevant ones for the given query, based on the already identified relevant categories, then rank them by relevance.
 
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
+
 # Workflow
 1. Analyze the **Query** to understand intent and key information needs.
 2. Review the **Relevant Categories** provided to understand the scope.

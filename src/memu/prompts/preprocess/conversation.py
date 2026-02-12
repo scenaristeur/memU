@@ -2,6 +2,9 @@ PROMPT = """
 # Task Objective
 Analyze a conversation with message indices and divide it into multiple meaningful segments based on topic changes, time gaps, or natural breaks.
 
+# User's langage
+You must ABSOLUTELY respond and set ALL CONTENT IN FRENCH LANGUAGE.
+
 # Workflow
 1. Review the entire **Conversation Content** along with its message indices.
 2. Identify potential **segment boundaries** by observing:
