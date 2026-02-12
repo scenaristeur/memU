@@ -13,6 +13,7 @@ import asyncio
 import os
 import sys
 from dotenv import load_dotenv
+import logging
 
 load_dotenv() 
 
@@ -25,6 +26,11 @@ api_key = os.getenv("OPENAI_API_KEY")
 base_url = os.getenv("BASE_URL")
 chat_model = os.getenv("MODEL")
 embed_model = os.getenv("EMBEDDING_MODEL")
+
+# Configure logging to show info but suppress noisy libraries
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
+# logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+# logging.getLogger("httpx").setLevel(logging.WARNING)
 
 async def generate_memory_md(categories, output_dir):
     """Generate concise markdown files for each memory category."""
@@ -87,8 +93,8 @@ async def main():
 
     conversation_files = [
         "examples/resources/conversations/conv1_fr.json",
-        "examples/resources/conversations/conv2_fr.json",
-        "examples/resources/conversations/conv3_fr.json",
+        # "examples/resources/conversations/conv2_fr.json",
+        # "examples/resources/conversations/conv3_fr.json",
     ]
 
     print("\nProcessing conversations...")

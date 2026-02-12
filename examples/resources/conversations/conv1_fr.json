@@ -1,11 +1,11 @@
 [
   {
     "role": "user",
-    "content": "Bonjour ! Je m'appelle Alex. Je suis ingénieur logiciel travaillant chez TechCorp. Je programme depuis environ 5 ans maintenant."
+    "content": "Bonjour ! Je m'appelle Bob. Je suis ingénieur logiciel travaillant chez TechCorp. Je programme depuis environ 5 ans maintenant."
   },
   {
     "role": "assistant",
-    "content": "Enchanté de vous rencontrer, Alex ! C'est un plaisir de vous avoir ici. Sur quel type de développement logiciel travaillez-vous principalement chez TechCorp ?"
+    "content": "Enchanté de vous rencontrer, Bob ! C'est un plaisir de vous avoir ici. Sur quel type de développement logiciel travaillez-vous principalement chez TechCorp ?"
   },
   {
     "role": "user",
