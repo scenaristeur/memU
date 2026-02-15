@@ -28,7 +28,7 @@ chat_model = os.getenv("MODEL")
 embed_model = os.getenv("EMBEDDING_MODEL")
 
 # Configure logging to show info but suppress noisy libraries
-logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
+# logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 # logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 # logging.getLogger("httpx").setLevel(logging.WARNING)
 
@@ -93,8 +93,8 @@ async def main():
 
     conversation_files = [
         "examples/resources/conversations/conv1_fr.json",
-        # "examples/resources/conversations/conv2_fr.json",
-        # "examples/resources/conversations/conv3_fr.json",
+        "examples/resources/conversations/conv2_fr.json",
+        "examples/resources/conversations/conv3_fr.json",
     ]
 
     print("\nProcessing conversations...")
