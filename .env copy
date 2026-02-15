@@ -1,4 +1,16 @@
-OPENAI_API_KEY=sk-xxxxx
-EMBEDDING_MODEL=BAAI/bge-m3
+OPENAI_API_KEY=sk-xxx
+MODEL_MIDDLE=openai/gpt-oss-120b # tâches d'une complexité modérée et d'analyse d'images 10/min
+MODEL=mistralai/Mistral-Small-3.2-24B-Instruct-2506 #taches complexes et analyse d'images 50/min
+MODEL_LIGHT=mistralai/Ministral-3-8B-Instruct-2512 # taches simples 50/min
+
+# MODEL_CODE=Qwen/Qwen3-Coder-30B-A3B-Instruct #50/min
+
+# MODEL_TRANSCRIPTION_AUDIO=openai/whisper-large-v3 # 50/min
+
+# MODEL_TRANSCRIPTION_AUDIO_2=mistralai/Voxtral-Mini-3B-2507 #50/min
+
+# MODEL_RERANKER=BAAI/bge-reranker-v2-m3 #Modèle de classement de la pertinence des documents retournés par votre RAG 500/min
+
+EMBEDDING_MODEL=BAAI/bge-m3 # Modèle de vectorisation pour construire votre RAG 500/min
 BASE_URL=https://albert.api.etalab.gouv.fr/v1
 MEMU_LLM_PROVIDER=albert
